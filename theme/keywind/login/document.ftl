@@ -5,6 +5,8 @@
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  
   <#if properties.meta?has_content>
     <#list properties.meta?split(" ") as meta>
       <meta name="${meta?split('==')[0]}" content="${meta?split('==')[1]}">
